@@ -1,8 +1,23 @@
-﻿namespace myApp;
+﻿using System.Reflection.Metadata.Ecma335;
+
+namespace myApp;
+
 class Program
 {
-    static void Main(string[] args)
+    public interface Catalogue(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        FabriqueVehicule fabrique(Vehicule v) = new FabriqueVehicule();
+    }
+}
+
+class ConcreteCatalogue : Catalogue
+{
+    public interface Catalogue(string[] args)
+    {
+       return new ConcreteCatalogue();
+    }
+    public interface FabriqueVehicule(Vehicule v)
+    {
+        return new ConcreteFabriqueVehicule();
     }
 }
