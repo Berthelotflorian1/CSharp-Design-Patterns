@@ -148,3 +148,15 @@ Structure generique du pattern:
 
 ![Alt text](image-6.png)
 
+
+Créer une classe abstraite 
+
+
+Bridge permet de factoriser 
+
+Interface (classe abstraite) vs Implémentation
+
+
+Composite :
+Marche bien avec les entreprises :
+Société Mère / Filiale / Société Fille...

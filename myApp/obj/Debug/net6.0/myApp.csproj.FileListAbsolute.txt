@@ -1,0 +1,4 @@
+C:\Users\flori\C#\myApp\obj\Debug\net6.0\myApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\flori\C#\myApp\obj\Debug\net6.0\myApp.AssemblyInfoInputs.cache
+C:\Users\flori\C#\myApp\obj\Debug\net6.0\myApp.AssemblyInfo.cs
+C:\Users\flori\C#\myApp\obj\Debug\net6.0\myApp.csproj.CoreCompileInputs.cache
