@@ -1,0 +1,69 @@
+using System;
+using System.Collections.Generic;
+
+class Livre
+{
+    public string Titre { get; set; }
+    public Auteur Auteur { get; set; }
+    public Categorie Categorie { get; set; }
+    public DateTime DatePublication { get; set; }
+}
+
+class Auteur
+{
+    public string Nom { get; set; }
+    public DateTime DateNaissance { get; set; }
+    public string Nationalite { get; set; }
+}
+
+class Emprunt
+{
+    public DateTime DateEmprunt { get; set; }
+    public DateTime DateRetour { get; set; }
+    public Client Client { get; set; }
+}
+
+class Client
+{
+    public string Nom { get; set; }
+    public string Adresse { get; set; }
+}
+
+class Categorie
+{
+    public string Nom { get; set; }
+    public string Description { get; set; }
+    public List<Livre> Livres { get; set; } = new List<Livre>();
+}
+
+
+interface IMoyenPaiement
+{
+    void EffectuerPaiement();
+}
+
+class Cheque : IMoyenPaiement
+{
+    public void EffectuerPaiement()
+    {
+        Console.WriteLine("Paiement par chèque effectué.");
+    }
+}
+
+class Espece : IMoyenPaiement
+{
+    public void EffectuerPaiement()
+    {
+        Console.WriteLine("Paiement par virement effectué");
+    }
+}
+
+class CarteBancaire : IMoyenPaiement
+{
+    public void EffectuerPaiement()
+    {
+        Console.WriteLine("Paiement par carte bancaire effectué")
+    }
+}
+
+

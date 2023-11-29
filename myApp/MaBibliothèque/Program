@@ -1,0 +1,19 @@
+class Program
+{
+    static void Main()
+    {
+        Auteur auteur1 = new Auteur { Nom = "Auteur 1", Nationalite = "Nationalite 1" };
+        Livre livre1 = new Livre { Titre = "Livre 1", Auteur = auteur1, Categorie = new Categorie { Nom = "Catégorie 1" }, DatePublication = DateTime.Now };
+        Client client1 = new Client { Nom = "Client 1", Adresse = "Adresse 1" };
+        Emprunt emprunt1 = new Emprunt { DateEmprunt = DateTime.Now, DateRetour = DateTime.Now.AddDays(14), Client = client1 };
+
+
+        livre1.Categorie.Livres.Add(livre1);
+
+        Console.WriteLine($"Livre: {livre1.Titre}, Auteur: {livre1.Auteur.Nom}, Catégorie: {livre1.Categorie.Nom}");
+        Console.WriteLine($"Emprunt par {emprunt1.Client.Nom} le {emprunt1.DateEmprunt}, à retourner le {emprunt1.DateRetour}");
+
+        Cheque cheque = new Cheque();
+        cheque.EffectuerPaiement();
+    }
+}
