@@ -1,0 +1,21 @@
+public class TestBook
+{
+  static void Main(string[] args)
+  {
+
+    Book leBook = Book.Instance();
+    leBook.titre = "Le titre";
+    leBook.auteur = "L'auteur";
+    leBook.genre = "Le genre";
+    leBook.langue = "La langue";
+    leBook.disponible = true;
+
+    affiche();
+  }
+
+  public static void affiche()
+  {
+    Book leBook = Book.Instance();
+    leBook.affiche();
+  }
+}

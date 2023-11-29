@@ -1,0 +1,31 @@
+using System;
+
+public class Book
+{
+  public string titre { get; set; }
+  public string auteur { get; set; }
+  public string genre { get; set; }
+  public string langue { get; set; }
+  public bool disponible { get; set; }
+
+  private static Book _instance = null;
+
+  private Book(){}
+
+  public static Book Instance()
+  {
+    if (_instance == null)
+      _instance = new Book();
+    return _instance;
+  }
+
+  public void affiche()
+  {
+    Console.WriteLine("Titre : " + titre);
+    Console.WriteLine("Auteur : " + auteur);
+    Console.WriteLine("Genre : " + genre);
+    Console.WriteLine("Langue : " + langue);
+    Console.WriteLine("Disponible : " + disponible);
+  }
+
+}

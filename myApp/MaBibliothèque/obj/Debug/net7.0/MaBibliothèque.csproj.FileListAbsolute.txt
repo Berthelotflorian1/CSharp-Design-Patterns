@@ -1,0 +1,4 @@
+C:\Users\flori\C#\myApp\MaBibliothèque\obj\Debug\net7.0\MaBibliothèque.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\flori\C#\myApp\MaBibliothèque\obj\Debug\net7.0\MaBibliothèque.AssemblyInfoInputs.cache
+C:\Users\flori\C#\myApp\MaBibliothèque\obj\Debug\net7.0\MaBibliothèque.AssemblyInfo.cs
+C:\Users\flori\C#\myApp\MaBibliothèque\obj\Debug\net7.0\MaBibliothèque.csproj.CoreCompileInputs.cache
