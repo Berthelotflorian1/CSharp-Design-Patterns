@@ -1,0 +1,14 @@
+C:\Users\flori\C#\myApp\sample\sample\bin\Debug\net7.0\sample.exe
+C:\Users\flori\C#\myApp\sample\sample\bin\Debug\net7.0\sample.deps.json
+C:\Users\flori\C#\myApp\sample\sample\bin\Debug\net7.0\sample.runtimeconfig.json
+C:\Users\flori\C#\myApp\sample\sample\bin\Debug\net7.0\sample.dll
+C:\Users\flori\C#\myApp\sample\sample\bin\Debug\net7.0\sample.pdb
+C:\Users\flori\C#\myApp\sample\sample\obj\Debug\net7.0\sample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\flori\C#\myApp\sample\sample\obj\Debug\net7.0\sample.AssemblyInfoInputs.cache
+C:\Users\flori\C#\myApp\sample\sample\obj\Debug\net7.0\sample.AssemblyInfo.cs
+C:\Users\flori\C#\myApp\sample\sample\obj\Debug\net7.0\sample.csproj.CoreCompileInputs.cache
+C:\Users\flori\C#\myApp\sample\sample\obj\Debug\net7.0\sample.dll
+C:\Users\flori\C#\myApp\sample\sample\obj\Debug\net7.0\refint\sample.dll
+C:\Users\flori\C#\myApp\sample\sample\obj\Debug\net7.0\sample.pdb
+C:\Users\flori\C#\myApp\sample\sample\obj\Debug\net7.0\sample.genruntimeconfig.cache
+C:\Users\flori\C#\myApp\sample\sample\obj\Debug\net7.0\ref\sample.dll

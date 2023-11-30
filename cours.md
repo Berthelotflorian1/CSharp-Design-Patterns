@@ -160,3 +160,8 @@ Interface (classe abstraite) vs Implémentation
 Composite :
 Marche bien avec les entreprises :
 Société Mère / Filiale / Société Fille...
+
+
+
+## Les patterns de comportement
+

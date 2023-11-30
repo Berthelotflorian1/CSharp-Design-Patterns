@@ -16,4 +16,4 @@ class Program
         Cheque cheque = new Cheque();
         cheque.EffectuerPaiement();
     }
-}
+} 
